@@ -57,16 +57,6 @@ ML_Model/
     └── naive_bayes_best_model.pkl
 ```
 
-## API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/` | API status and model info |
-| GET | `/health` | Health check |
-| GET | `/symptoms` | List of all valid symptom names |
-| POST | `/predict` | Predict a disease from symptoms |
-
-
 ## Disclaimer
 
 This project is for **educational purposes only**. It is **not a medical diagnostic tool** and must not replace professional medical advice. Always consult a qualified healthcare provider for diagnosis and treatment.
