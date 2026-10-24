@@ -60,3 +60,7 @@ ML_Model/
 ## Disclaimer
 
 This project is for **educational purposes only**. It is **not a medical diagnostic tool** and must not replace professional medical advice. Always consult a qualified healthcare provider for diagnosis and treatment.
+
+## 📌 Notes
+
+* The free Render tier may "sleep" after inactivity, so the first request can take 30–60 seconds to wake the backend.
