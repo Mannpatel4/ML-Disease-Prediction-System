@@ -66,23 +66,6 @@ ML_Model/
 | GET | `/symptoms` | List of all valid symptom names |
 | POST | `/predict` | Predict a disease from symptoms |
 
-**Example request**
-
-```bash
-curl -X POST https://YOUR-API-URL.onrender.com/predict \
-  -H "Content-Type: application/json" \
-  -d '{"symptoms": ["itching", "skin_rash", "nodal_skin_eruptions"]}'
-```
-
-**Example response**
-
-```json
-{
-  "predicted_disease": "Fungal infection",
-  "confidence": 0.98,
-  "symptoms_count": 3
-}
-```
 
 ## Disclaimer
 
